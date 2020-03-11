@@ -1,0 +1,618 @@
+
+@media only screen and (max-width:768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+    header img {
+        width: 60%;
+    }
+    header p {
+        margin-top: -3%;
+        margin-left: 10%;
+    }
+    .banner {
+        background-image: url('./img/banner.jpg');
+        background-position: center center;
+        padding: 7% 0%;
+    }
+    .banner-content {
+        background-color: white;
+        opacity: 0.9;
+        width: 100%;
+        position: relative;
+    }
+    .banner-content div:first-child {
+        padding-top: 3%;
+        padding-left: 10%;
+        margin: 0;
+        width: 80%;
+        align-items: left;
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: -0.02px;
+        color: #231e20;    
+    }
+
+    .banner-content div p {
+        font-size: 14px;
+        letter-spacing: -.02px;
+        color: #231e20;
+    }
+
+    .banner-content div p:first-child {
+        width: 90%;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: -0.04px;
+        color: #bf5700;
+        margin: 0%;
+    }
+
+    .apply {
+        display: flex;
+        padding-bottom: 5%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .apply button {
+        background-color: #bf5700;
+        margin: auto;
+        width: 70%;
+        height: 2.5em;
+        border: none;
+        border-radius: 3px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        letter-spacing: -0.02px;
+        outline: none;
+    }
+    .form-section div:first-child {
+        display: none;
+    }
+
+    form {
+        text-align: center;
+        padding-bottom: 3%;
+    }
+
+    form h1 {
+        font-size: 18px;
+        color: #231e20;
+        letter-spacing: -0.02px;
+        /* padding-bottom: 0%; */
+    }
+
+    form p {
+        text-align: center;
+        margin: auto;
+        font-size: 14px;
+        letter-spacing: -0.02px;
+        color: #231e20;
+        width: 85%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+
+    input {
+        width: 80%;
+        height: 2.5em;
+        padding-left: 3%;
+        margin-top: 3%;
+        border: solid 1px #d5d5d5;
+        background-color: #ffffff;
+        border-radius: 3px;
+    }
+    form button {
+        background-color: #bf5700;
+        border: none;
+        width: 85%;
+        border-radius: 3px;
+        height: 2.3em;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: -0.02px;
+        color: #fcfcfc;
+    }
+    .icon-content {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: auto;
+        padding-top: 5%;
+    }
+
+    .icon-content div {
+        width: 45%;
+        margin-bottom: 8%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 5%;
+    }
+    .icon-content div img {
+        width: 40%;
+        height: 4em;
+    }
+
+    .icon-content div p {
+        text-align: center;
+        margin: auto;
+        margin-top: 15%;
+        font-weight:600;
+    }
+    .benefits {
+        background-color: #e8e6e3;
+    }
+    .benefits h1 {
+        color: #231e20;
+        font-size: 20px;
+        letter-spacing: -.02px;
+        text-align: center;
+        padding-top: 5%;
+    }
+    .benefits ul {
+        list-style: none;
+        width: 80%;
+        margin: auto;        
+        padding: 0%;
+    }
+    .benefits ul li {
+        display: flex;
+        padding-bottom: 5%;
+    }
+    .benefits ul li img {
+        margin: auto 0;
+        width: 5%;
+        /* height: 1.3em; */
+    }
+    .benefits ul li p {
+        margin: 0;
+        padding-left: 7%;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .faculty-profile {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .faculty-profile h1 {
+        font-size: 18px;
+        color: #231e20;
+        letter-spacing: -0.02px;
+        padding-bottom: 5%;
+    }
+    .faculty-profile h3 {
+        font-size: 14px;
+        counter-reset: #231e20;
+        padding-bottom: 3%;
+    }
+    .faculty-profile div {
+        padding-bottom: 5%;
+        font-size: 14px;
+    }
+    .faculty-quote {
+        padding-top: 8%;
+        padding-bottom: 5%;
+        font-size: 11px;
+        position: relative;
+        font-style: italic;
+        font-weight: bold;
+    }
+    .faculty-quote::before {
+        content: '“';
+        color: #bf5700;
+        font-size: 42px;
+        position: absolute;
+        top: 15.3px;
+        /* left: 8px; */
+        font-family: LucidaGrande;
+    }
+    .faculty-quote::after {
+        content: '“';
+        color: #bf5700;
+        font-size: 42px;
+        position: absolute;
+        /* bottom: -6px; */
+        font-family: LucidaGrande;
+    }
+    .achieve-points {
+        background-color: #e8e6e3;
+        text-align: center;
+    }
+    .achieve-points h1 {
+        font-size: 18px;
+        padding-top: 8%;
+        padding-bottom: 4%;
+    }
+    .achieve-points .container div {
+        font-size: 14px;
+        text-align: left;
+    }
+    .achieve-points .container ul {
+        list-style: none;
+        padding: 0%;
+        padding-bottom: 5%;
+    }
+    .achieve-points .container ul li {
+        display: flex;
+        font-size: 14px;
+        text-align: left;
+    }
+    .achieve-points .container ul li img {
+        margin: auto 0;
+        width: 5%;
+        /* height: 1.3em; */
+    }
+    .achieve-points .container ul li p {
+        padding-left: 5%;
+        font-weight: bold;
+    }
+    .industry-demands {
+        width: 80%;
+        margin: auto;
+    }
+    .industry-demands h1 {
+        text-align: center;
+        font-size: 18px;
+        color: #231e20;
+        padding-top: 7%;
+    }
+    .industry-demands div {
+        font-size: 14px;
+        text-align: center;
+        color: #231e20;
+    }
+    .industry-demands ul {
+        list-style: none;
+        padding: 0%;
+    }
+    .industry-demands ul li {
+        display: flex;
+        text-align: left;
+        font-weight: bold;
+        color: #231e20;
+        font-size: 15px;
+        margin-top: 3%;
+    }
+    .ordered-list-text {
+        margin: auto 0;
+        text-align: left;
+        padding-left: 5%;
+        width: 80%;
+    }
+
+    .industry-demands ul li p:first-child {
+        margin: 3% 0%;
+        background-color: #e8e6e3;
+        text-align: center;
+        color: #bf5700;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .industry-demands button {
+        background-color: #bf5700;
+        border: none;
+        width: 100%;
+        border-radius: 3px;
+        height: 2.3em;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: -0.02px;
+        color: #fcfcfc;
+        margin: 10% 0%;
+    }
+    footer {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .contact-details {
+        line-height: 1.8;
+        font-size: 14px;
+        color: #1a1a1a;
+    }
+    .footer-logo {
+        padding: 5% 0%;
+    }
+}
+
+
+@media only screen and (min-width:769px){
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .logo {
+        width: 25%;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header p {
+        font-size: 12px;
+        margin: auto 0;
+        padding-right: 1%;
+    }
+    
+    .banner {
+        background-image: url('./img/banner.jpg');
+        background-position: center center;
+        padding: 3% 0%;
+    }
+    
+    .banner-content {
+        background-color: white;
+        width: 50%;
+        position: relative;
+    }
+    
+    .banner-content div p:first-child {
+        width: 90%;
+        font-size: 29px;
+        letter-spacing: -0.04px;
+        color: #bf5700;
+        margin: 0%;
+    }
+    
+    .apply {
+        display: flex;
+        padding-bottom: 3%;
+        margin-left: 0%;
+    }
+    
+    .apply button {
+        background-color: #bf5700;
+        width: 182px;
+        height: 39px;
+        border: none;
+        border-radius: 2px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        letter-spacing: -0.02px;
+        outline: none;
+    }
+    
+    .apply p {
+        padding-left: 4%;
+        font-weight: bold;
+        color: #231e20;
+        font-size: 14px;
+        letter-spacing: -0.02px;
+    }
+    
+    .form-section {
+        background-color: #e8e6e3;
+        display: flex;
+        margin-top: 0.5%;
+    }
+    
+    .form-section div {
+        width: 45%;
+        padding-left: 5%;
+    }
+    
+    h1 {
+        margin: 0;
+        padding: 0;
+        letter-spacing: -0.03px;
+        color: #231e20;
+        font-size: 24px;        
+    }
+    
+    .form-section div h1 {
+        padding-top: 10%;
+    }
+
+    .disclaimer {
+        padding-bottom: 3%;
+        font-size: 10px;
+        font-weight: 600;
+        color: #494747;
+    }
+    
+    ul {
+        padding: 0;
+        margin-bottom: 5%;
+    }
+    
+    .outcome-points li {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.73;
+        letter-spacing: -0.02px;
+        padding-bottom: 3%;
+        color: #231e20;
+        list-style: none;
+        display: flex;
+    }
+    .outcome-points li:first-child p {
+        margin: 0;
+    }
+    
+    .outcome-points li img {
+        width: 1em;
+        height: 1em;
+        margin-top: 1%;
+    }
+    
+    .outcome-points li p {
+        margin-left: 3%;
+    }
+    
+    .outcome-points li:first-child p {
+        margin-left: 3%;
+    }
+    
+    
+    form {
+        width: 40%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    form h1 {
+        color: #231e20;
+        font-size: 24px;
+        letter-spacing: -0.03px;
+        padding: 5% 0%;
+        margin-top: 5%;
+    }
+    
+    form p {
+        font-size: 14px;
+        letter-spacing: -0.02px;
+        color: #494747;
+        margin-bottom: 0em;
+    }
+    
+    input {
+        width: 75%;
+        height: 2.5em;
+        padding-left: 3%;
+        margin-top: 3%;
+        border: solid 1px #d5d5d5;
+        background-color: #ffffff;
+        border-radius: 3px;
+    }
+    
+    form button {
+        background-color: #bf5700;
+        border: none;
+        width: 78%;
+        border-radius: 3px;
+        height: 2.3em;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: -0.02px;
+        color: #fcfcfc;
+    }
+    
+    .icon-content {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5% 0%;
+    }
+    
+    .icon-content div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .icon-content div img {
+        width: 80px;
+        /* height: 80px; */
+    }
+    
+    .icon-content div p {
+        text-align: center;
+        color: #231e20;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: -0.03px;
+    }
+
+    .benefits {
+        display: none;
+    }
+    
+    .profile-section {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 5%;
+    }
+    
+    .faculty-profile {
+        width: 45%;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.05), 0 4px 6px 0 rgba(0, 0, 0, 0.05);
+        text-align: center;
+    }
+    
+    .faculty-profile h1 {
+        font-size: 22px;
+        padding: 5% 0%;
+    }
+    
+    .achieve-points {
+        width: 45%;
+        background-color: #e8e6e3;
+        border: 1px;
+    }
+    
+    .achieve-points h1 {
+        text-align: center;
+        padding-top: 5%;
+    }
+    
+    .achieve-points div:first-child {
+        text-align: center;
+        width: 80%;
+    }
+    
+    .achieve-points ul {
+        list-style: none;
+    }
+    
+    .industry-demands {
+        background-color: #e8e6e3;
+        padding: 4% 0%;
+    }
+    
+    .industry-demands ul li {
+        display: flex;
+        font-weight: bold;    
+        color: #231e20;
+        font-size: 18px;
+        align-items: center;
+    }
+    
+    .industry-demands ul li p:first-child {
+        background-color: white;
+        color: #bf5700;
+        border-radius: 50px;
+        padding: .3% .8%;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    
+    .industry-demands button {
+        background-color: #bf5700;
+        width: 182px;
+        height: 39px;
+        border: none;
+        border-radius: 2px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        letter-spacing: -0.02px;
+        outline: none;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 1% 0% 3% 0%;
+    }    
+}
