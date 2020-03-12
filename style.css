@@ -99,6 +99,14 @@ form p {
     padding-bottom: 5%;
 }
 
+.error-message {
+    color: red;
+    text-align: left;
+    float: left;
+    font-size: 12px;
+    padding-left: 11%;
+}
+
 input {
     width: 80%;
     height: 2.5em;

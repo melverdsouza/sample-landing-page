@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <title>AI & ML</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./index.js"></script>
 </head>
 <body>
     <header>
@@ -35,15 +39,15 @@
                 <li><img src="./img/group_2020-03-09/group.png" ></p>A substantial body of work and an industry-ready portfolio in AI & ML.</p></li>
             </ul>
         </div>
-        <form action="#">
+        <form id="form" action="submitted.html">
             <h1>Download the Program Brochure</h1>
             <p>Learn more about the program curriculum, fee, benefits and more</p>
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Mobile No.">
-            <input type="text" placeholder="Work Experience in years">
+            <input type="text" id="name" placeholder="Name"> <span id="name-error-message" class="error-message"></span>
+            <input type="text" id="email" placeholder="Email"> <span id="email-error-message" class="error-message"></span>
+            <input type="text" id="mobile" placeholder="Mobile No."> <span id="mobile-error-message" class="error-message"></span>
+            <input type="text" id="work-experience" placeholder="Work Experience in years"> <span id="work-experience-error-message" class="error-message"></span>
             <p class="disclaimer">Your details will not be shared with third parties.</p>
-            <button>Download Brochure</button>
+            <button id='form-submit'>Download Brochure</button>
         </form>
     </section>
     <section class="icon-content">
